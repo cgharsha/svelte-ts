@@ -1,12 +1,11 @@
-import { afterEach } from "vitest";
-import { cleanup } from "@testing-library/svelte";
+import { afterEach } from 'vitest'
+import { cleanup } from '@testing-library/svelte'
 // impwort "@testing-library/jest-dom/vitest";
 
 // runs a clean after each test case (e.g. clearing jsdom)
 afterEach(() => {
-  cleanup();
-});
-
+  cleanup()
+})
 
 // import { config } from '@some-testing-lib'
 
