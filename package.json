@@ -14,7 +14,7 @@
     "lint": "eslint . --fix --max-warnings=0",
     "lint-fix": "eslint --fix",
     "format": "prettier . --write",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
