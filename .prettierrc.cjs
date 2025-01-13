@@ -8,5 +8,6 @@ module.exports = {
   svelteStrictMode: false,
   svelteBracketNewLine: true,
   svelteIndentScriptAndStyle: true,
-  trailingComma: 'none'
+  trailingComma: 'none',
+  overrides: [{ files: '*.svelte', options: { parser: 'svelte' } }]
 }
